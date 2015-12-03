@@ -91,7 +91,7 @@ public class PipeBindingsTest extends AbstractPipeTest {
         assertNotNull("calendar should be instantiated", cal);
         assertEquals("year should be correct", 2012, cal.get(Calendar.YEAR));
         assertEquals("month should be correct", 4, cal.get(Calendar.MONTH));
-        assertEquals("date should be correct", 11, cal.get(Calendar.DAY_OF_MONTH));
+        assertEquals("date should be correct", 12, cal.get(Calendar.DAY_OF_MONTH));
     }
 
     @Test
