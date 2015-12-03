@@ -107,7 +107,7 @@ execute the pipe referenced in path property
 
 #### Write Pipe
 writes given properties to current input
-* `sling:resourceType` is `slingPipes/slingQuery`
+* `sling:resourceType` is `slingPipes/write`
 * `conf` node tree that will be copied to the current input of the pipe, each node's properties 
 names and value will be written to the input resource. Input resource will be outputed. 
 
